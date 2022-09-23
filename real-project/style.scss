@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  background-color: #232323;
+  height: 100vh;
+  
+
+
+  h2 {
+    color: aliceblue;
+  }
+
+  .hello {
+    background-color: aquamarine;
+
+
+    &__item {
+      color: darkmagenta;
+      font-size: 1.3rem;
+    }
+  }
+}
